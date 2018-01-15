@@ -10,8 +10,8 @@ To install: Clone this repository to your local machine using git clone https://
 
 ## Built With
 
-*Create-React-App
-*Node
-*Express
-*Redux
-*React-Router
+..*Create-React-App
+..*Node
+..*Express
+..*Redux
+..*React-Router
