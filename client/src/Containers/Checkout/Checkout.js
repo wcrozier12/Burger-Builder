@@ -10,6 +10,10 @@ class Checkout extends Component {
   checkoutContinuedHandler = () => {
     this.props.history.replace("/checkout/contact-data");
   };
+
+  checkoutCancelledHandler = () => {
+    this.props.history.replace('/');
+  }
   render() {
     let summary = <Redirect to="/" />;
     if (this.props.ings) {

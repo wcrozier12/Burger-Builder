@@ -8,6 +8,7 @@ import * as actions from '../../store/actions'
 class Orders extends Component {
 
   componentDidMount() {
+    console.log('fromt orders')
     this.props.onFetchOrders()
   }
   render() {
